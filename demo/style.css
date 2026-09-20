@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; background: #f4f1e8; color: #233e36; font-family: system-ui, sans-serif; }
+main { width: min(100%, 440px); padding: 36px 24px; border: 1px solid #c7d0c6; border-radius: 20px; background: #fffef8; text-align: center; }
+h1 { margin: 10px 0; font-size: 2rem; }
+.eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: .75rem; }
+output { display: block; margin: 24px 0; font-size: 6rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; min-width: 48px; padding: 12px 16px; border: 1px solid #233e36; border-radius: 10px; background: #233e36; color: white; font: inherit; cursor: pointer; }
+button:hover:not(:disabled) { background: #385c50; }
+button:disabled { opacity: .4; cursor: default; }
+button:focus-visible { outline: 3px solid #aa4e16; outline-offset: 4px; }
+.note { color: #58665b; font-size: .85rem; }

@@ -1,5 +1,5 @@
 {
-    "name": "ecme",
+    "name": "pocket-counter-demo",
     "private": true,
     "version": "1.2.0",
     "type": "module",
@@ -114,5 +114,14 @@
             "react": "19.0.0",
             "react-dom": "19.0.0"
         }
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc --noEmit && vite build",
+        "preview": "vite preview --host 127.0.0.1",
+        "test": "vitest run"
+    },
+    "engines": {
+        "node": ">=22"
     }
 }
